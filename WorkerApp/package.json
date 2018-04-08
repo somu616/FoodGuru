@@ -1,0 +1,35 @@
+{
+  "name": "WorkerApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "autosuggest": "0.0.2",
+    "react": "16.0.0-alpha.3",
+    "react-autosuggest": "^9.3.4",
+    "react-mixin": "^4.0.0",
+    "react-native": "0.43.1",
+    "react-native-autocomplete": "^0.4.0",
+    "react-native-autocomplete-input": "^3.5.0",
+    "react-native-camera-roll-picker": "1.1.9",
+    "react-native-checkbox": "^2.0.0",
+    "react-native-device-info": "0.11.0",
+    "react-native-file-upload": "^1.0.4",
+    "react-native-loading-spinner-overlay": "^0.5.2",
+    "react-native-polyfill": "^1.2.1",
+    "react-native-router-flux": "3.37.0",
+    "react-native-vector-icons": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-jest": "18.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "18.0.0",
+    "react-test-renderer": "15.4.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
